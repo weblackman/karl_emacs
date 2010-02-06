@@ -1,0 +1,22 @@
+(require 'cl) ; a rare necessary use of REQUIRE
+(defvar *emacs-load-start* (current-time))
+(add-to-list 'load-path "d:/elisp/")
+(add-to-list 'load-path "d:/elisp/php-mode-1.5.0/")
+(add-to-list 'load-path "d:/elisp/efs-1.24/")
+(add-to-list 'load-path "d:/elisp/color-theme-6.6.0/")
+(add-to-list 'load-path "d:/elisp/geben-0.24/")
+(add-to-list 'load-path "d:/elisp/delicious-el/")
+(add-to-list 'load-path "d:/elisp/rest/")
+(add-to-list 'load-path "d:/elisp/emacs-cake/")
+(add-to-list 'load-path "d:/elisp/slime/")
+(add-to-list 'load-path "d:/elisp/mmm-mode-0.4.8/")
+(add-to-list 'load-path "d:/elisp/twit/")
+(add-to-list 'load-path "d:/elisp/emhack/")
+(add-to-list 'load-path "d:/elisp/emacs-httpd.git/")
+(add-to-list 'load-path "d:/elisp/cedet-1.0pre6/")
+(add-to-list 'load-path "d:/elisp/cedet-1.0pre6/semantic/")
+(add-to-list 'load-path "d:/elisp/cedet-1.0pre6/semantic/wisent/")
+(add-to-list 'load-path "d:/elisp/cedet-1.0pre6/common/")
+(add-to-list 'load-path "d:/elisp/egg/")
+
+
